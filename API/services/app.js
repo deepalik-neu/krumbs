@@ -27,6 +27,7 @@ app.use(APP_ROUTES.USER_ROUTES,uRouter);
 app.use(APP_ROUTES.MENU_ITEM_ROUTES,mRouter);
 app.use(APP_ROUTES.ORDER_ROUTES,oRouter);
 app.use(APP_ROUTES.RESTAURANT_ROUTES,rRouter);
+app.use(favicon(path.join(__dirname, '../assets/favicon.ico')));
 
 mongoose
 .connect('mongodb+srv://Abhishek:Abhishek123@cluster0.wd2nm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
