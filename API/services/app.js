@@ -5,6 +5,7 @@ import {mRouter} from '../routers/menuItemRoutes.js';
 import {uRouter} from '../routers/userRoutes.js';
 import {rRouter} from '../routers/restaurantRoutes.js';
 import {oRouter} from '../routers/orderRoutes.js';
+import favicon from 'serve-favicon';
 // const leftOverRouter = require('../routers/leftoverItemRoutes');
 import {MongoClient} from 'mongodb';
 import { APP_ROUTES } from '../constants/routes.js';
